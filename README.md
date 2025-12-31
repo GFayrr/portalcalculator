@@ -23,7 +23,6 @@ All calculations are handled using scoreboards, ensuring reliability and full co
 2. Copy the `day_counter` folder into: `.minecraft/saves/<your_world>/datapacks/`
 3. Launch the world
 4. Run the following command if the datapack is not loaded: `/reload`
-5. The day counter will appear automatically
 
 ## Datapack Structure
 
