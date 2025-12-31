@@ -16,7 +16,7 @@ All calculations are handled using scoreboards, ensuring reliability and full co
 
 * `nether.mcfunction` → Overworld coordinates ÷ 8
 * `overworld.mcfunction` → Nether coordinates × 8
-* Preserved precision using a scaling factor (×1000)
+* Preserved precision using a scaling factor
 * Works in singleplayer and multiplayer
 * No mods required
 
@@ -53,7 +53,7 @@ Its purpose is to:
 ### Expected setup
 
 * Objectives:
-* `px`, `pz`
+* `px`, `py`, `pz`
 
 * Constants:
 * `#rat8`
@@ -78,13 +78,12 @@ Displays the equivalent Overworld coordinates for the player.
 
 ## Precision and Limitations
 
-* Values are truncated
+* Values are rounded
 * Y-coordinate is not converted
-* Precision depends on the chosen scaling factor
 
 ## Compatibility
 
-* Minecraft versions: 1.21.1x (adjust `pack_format` if needed)
+* Minecraft versions: 1.21.1x
 * Works in survival mode if commands are enabled
 * Multiplayer compatible
 
