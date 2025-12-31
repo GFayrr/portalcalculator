@@ -1,7 +1,4 @@
 # Datapack – Overworld / Nether Coordinate Conversion
-
-## Description
-
 This Minecraft datapack allows players to display the equivalent coordinates between the Overworld and the Nether, following the official Minecraft conversion rule:
 
 * Overworld → Nether: divide by 8
@@ -20,6 +17,14 @@ All calculations are handled using scoreboards, ensuring reliability and full co
 * Works in singleplayer and multiplayer
 * No mods required
 
+## Installation
+
+1. Download or clone this repository
+2. Copy the `day_counter` folder into: `.minecraft/saves/<your_world>/datapacks/`
+3. Launch the world
+4. Run the following command if the datapack is not loaded: `/reload`
+5. The day counter will appear automatically
+
 ## Datapack Structure
 
 ```
@@ -35,22 +40,7 @@ data/
         └── overworld.mcfunction
 ```
 
----
-
-## Initialization (`load.mcfunction`)
-
-The `load.mcfunction` file is executed automatically:
-
-* when the datapack is loaded
-* when the world starts
-* when using the `/reload` command
-
-Its purpose is to:
-
-* create the required scoreboard objectives
-* initialize mathematical constants
-
-### Expected setup
+### Technical Details
 
 * Objectives:
 * `px`, `py`, `pz`
