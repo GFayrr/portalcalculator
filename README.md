@@ -42,11 +42,9 @@ data/
 
 ### Technical Details
 
-* Objectives:
-* `px`, `py`, `pz`
+* Objectives: `px`, `py`, `pz`
 
-* Constants:
-* `#rat8`
+* Constants: `#rat8`
 
 ## In-game Usage
 
