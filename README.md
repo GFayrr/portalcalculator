@@ -43,7 +43,7 @@ data/
 
 * Objectives: `px`, `py`, `pz`
 
-* Constants: `#rat8`
+* Constants: `#factor8`, `#halffactor`
 
 ## In-game Usage
 
