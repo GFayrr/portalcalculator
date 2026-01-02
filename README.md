@@ -43,7 +43,7 @@ data/
 
 ## In-game Usage
 
-### Nether Coordinates (Overworld ÷ 8)
+### Dimension Coordinates convert to the other
 
 ```mcfunction
 /function coordinate:convert
