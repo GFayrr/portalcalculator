@@ -9,10 +9,7 @@ All calculations are handled using scoreboards, ensuring reliability and full co
 ## Features
 
 * Displays converted player coordinates
-* Two separate functions:
-
-* `nether.mcfunction` → Overworld coordinates ÷ 8
-* `overworld.mcfunction` → Nether coordinates × 8
+* `convert.mcfunction` → Overworld coordinates ÷ 8 and Nether coordinates * 8
 * Preserved precision using a scaling factor
 * Works in singleplayer and multiplayer
 * No mods required
@@ -20,7 +17,7 @@ All calculations are handled using scoreboards, ensuring reliability and full co
 ## Installation
 
 1. Download or clone this repository
-2. Copy the `portalculator` folder into: `.minecraft/saves/<your_world>/datapacks/`
+2. Copy the `portalculator-<version>` folder into: `.minecraft/saves/<your_world>/datapacks/`
 3. Launch the world
 4. Run the following command if the datapack is not loaded: `/reload`
 
@@ -35,8 +32,7 @@ data/
 └── coordinate/
     └── functions/
         ├── load.mcfunction
-        ├── nether.mcfunction
-        └── overworld.mcfunction
+        └── convert.mcfunction
 ```
 
 ### Technical Details
@@ -50,18 +46,10 @@ data/
 ### Nether Coordinates (Overworld ÷ 8)
 
 ```mcfunction
-/function coordinate:nether
+/function coordinate:convert
 ```
 
-Displays the equivalent Nether coordinates for the player.
-
-### Overworld Coordinates (Nether × 8)
-
-```mcfunction
-/function coordinate:overworld
-```
-
-Displays the equivalent Overworld coordinates for the player.
+Displays the equivalent coordinates in the other dimension for the player.
 
 ## Precision and Limitations
 
@@ -71,7 +59,7 @@ Displays the equivalent Overworld coordinates for the player.
 ## Compatibility
 
 * Minecraft versions: 1.21.1x
-* Works in survival mode if commands are enabled
+* Works if commands are enabled
 * Multiplayer compatible
 
 ## License
