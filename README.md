@@ -32,7 +32,7 @@ data/
 │   └── tags/
 │       └── functions/
 │           └── load.json
-└── coords/
+└── coordinate/
     └── functions/
         ├── load.mcfunction
         ├── nether.mcfunction
@@ -50,7 +50,7 @@ data/
 ### Nether Coordinates (Overworld ÷ 8)
 
 ```mcfunction
-/function coords:nether
+/function coordinate:nether
 ```
 
 Displays the equivalent Nether coordinates for the player.
@@ -58,7 +58,7 @@ Displays the equivalent Nether coordinates for the player.
 ### Overworld Coordinates (Nether × 8)
 
 ```mcfunction
-/function coords:overworld
+/function coordinate:overworld
 ```
 
 Displays the equivalent Overworld coordinates for the player.
