@@ -20,12 +20,10 @@ The mod will detect your current dimension and display the corresponding coordin
 ### Manual conversion
 Provide coordinates manually regardless of your current position:
 
-'''
-/convert nether 800 64 -400
+`/convert nether 800 64 -400`
 → [Portal Calculator] Overworld (800, 64, -400) → Nether (100, 64, -50)
-/convert overworld 100 64 -50
+`/convert overworld 100 64 -50`
 → [Portal Calculator] Nether (100, 64, -50) → Overworld (800, 64, -400)
-'''
 
 ## Installation
 
