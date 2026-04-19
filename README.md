@@ -1,6 +1,6 @@
 # Portal Calculator 1.20.2
 
-A Fabric mod for Minecraft 1.20.1 that adds a `/convert` command to calculate
+A Fabric mod for Minecraft 1.20.2 that adds a `/convert` command to calculate
 Nether portal coordinates.
 
 ## Features
@@ -27,9 +27,9 @@ Provide coordinates manually regardless of your current position:
 
 ## Installation
 
-1. Install [Fabric Loader](https://fabricmc.net/use/installer/) for Minecraft 1.20.1
+1. Install [Fabric Loader](https://fabricmc.net/use/installer/) for Minecraft 1.20.2
 2. Download [Fabric API](https://modrinth.com/mod/fabric-api)
-3. Download the latest `portal-calculator-1.20.1-x.x.x.jar` from [Releases](../../releases)
+3. Download the latest `portal-calculator-1.20.2-x.x.x.jar` from [Releases](../../releases)
 4. Place both `.jar` files in your `mods/` folder
 
 ## Requirements
@@ -37,14 +37,14 @@ Provide coordinates manually regardless of your current position:
 | Dependency | Version |
 |---|---|
 | Minecraft | 1.20.2 |
+| Fabric Loader | ≥ 0.19.2 |
 | Fabric API | 0.91.6+1.20.2 |
-| Fabric API | 0.92.2+1.20.1 |
 | Java | ≥ 21 |
 
 ## Building from source
 
 ```bash
-git clone -b 1.20.1 https://github.com/GFayrr/portalcalculator.git
+git clone -b 1.20.2 https://github.com/GFayrr/portalcalculator.git
 cd portalcalculator
 ./gradlew build
 ```
