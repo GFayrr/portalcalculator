@@ -20,14 +20,16 @@ The mod will detect your current dimension and display the corresponding coordin
 ### Manual conversion
 Provide coordinates manually regardless of your current position:
 
-`/convert nether 800 64 -400` → [Portal Calculator] Overworld (800, 64, -400) → Nether (100, 64, -50)
-`/convert overworld 100 64 -50` → [Portal Calculator] Nether (100, 64, -50) → Overworld (800, 64, -400)
+| Commande | Résultat |
+|---|---|
+| `/convert nether 800 64 -400` | `[Portal Calculator] Overworld (800, 64, -400) → Nether (100, 64, -50)` |
+| `/convert overworld 100 64 -50` | `[Portal Calculator] Nether (100, 64, -50) → Overworld (800, 64, -400)` |
 
 ## Installation
 
 1. Install [Fabric Loader](https://fabricmc.net/use/installer/) for Minecraft 1.20.1
 2. Download [Fabric API](https://modrinth.com/mod/fabric-api)
-3. Download the latest `portal-calculator-120-x.x.x.jar` from [Releases](../../releases)
+3. Download the latest `portal-calculator-1.20.1-x.x.x.jar` from [Releases](../../releases)
 4. Place both `.jar` files in your `mods/` folder
 
 ## Requirements
@@ -42,8 +44,8 @@ Provide coordinates manually regardless of your current position:
 ## Building from source
 
 ```bash
-git clone https://github.com/GFayrr/portal-calculator-120.git
-cd portal-calculator-120
+git clone -b 1.20.1 https://github.com/GFayrr/portalcalculator.git
+cd portalcalculator
 ./gradlew build
 ```
 
