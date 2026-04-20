@@ -38,7 +38,7 @@ Provide coordinates manually regardless of your current position:
 |---|---|
 | Minecraft | 1.21 |
 | Fabric Loader | ≥ 0.19.2 |
-| Fabric API | 0.91.6+1.21 |
+| Fabric API | 0.102.0+1.21 |
 | Java | ≥ 21 |
 
 ## Building from source
