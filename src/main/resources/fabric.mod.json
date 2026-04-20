@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "portal-calculator",
+    "version": "${version}",
+    "name": "Portal Calculator",
+    "description": "Minecraft Nether Portal Coordinate Calculation",
+    "authors": [
+        "Fayr : https://github.com/GFayrr"
+    ],
+    "contact": {
+        "sources": "https://github.com/GFayrr/portalcalculator"
+    },
+    "license": "CC0-1.0",
+    "icon": "assets/portal-calculator/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "dev.fayr.portalcalculator.PortalCalculator"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.19.2",
+        "minecraft": "~1.21.7",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
